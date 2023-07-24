@@ -51,7 +51,7 @@ a.log{
 a.log::before{
     content: "";
     width: 0;
-    height: 5px;
+    height: 0.5vh;
     background: #000;
     bottom: 5px;
     position: absolute;
@@ -84,7 +84,7 @@ a.reg:hover{
 }
 
 /* fin du header
-début de la section */
+début de la section slogan */
 
 section.slog{
     width: 100%;
@@ -101,3 +101,75 @@ div.slogan{
     font-family: 'Freestyle Script', sans-serif;
 
 }
+
+/*fin section slogan
+début section presentation */
+
+section.pres{
+    width: 75%;
+    margin-left: 12.5%;
+    height: 70vh;
+    margin-top: 8vh;
+    display: flex;
+    overflow: hidden;
+}
+div.txt{
+    width: 40vw;
+    height: 100%;
+}
+div.txt div.title{
+    margin-left: 20%;
+    font-family: 'Freestyle Script', sans-serif;
+    font-size: 4.2vw;
+    margin-bottom: 2vh;
+}
+div.txt div.parag{
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    height: auto;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-size: 1.5vw;
+}
+div.photo{
+    width: 30vw;
+    height: 100%;
+    text-align: end;
+}
+div.photo img{
+    width: 25vw;
+}
+
+/* fin section presentation
+debut section rejoindre */
+section.rejoignez{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section.rejoignez img.back{
+    width: 100%;
+}
+section.rejoignez a.titre{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Freestyle Script', sans-serif;
+    font-size: 9.4vw;
+    position: absolute;
+}
+section.rejoignez a.titre::before{
+    content: "";
+    width: 0;
+    height: 1vh;
+    background: #fff;
+    bottom: 5px;
+    position: absolute;
+    left: 0;
+    transition: .6s ease-out;
+}
+section.rejoignez a.titre:hover::before{
+    width: 100%   
+}
+
