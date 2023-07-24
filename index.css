@@ -1,0 +1,103 @@
+@import url('https://fonts.cdnfonts.com/css/bufally-script');
+@import url('https://fonts.cdnfonts.com/css/freestyle-script');
+
+*{
+    margin: 0;
+}
+body{
+    background: #fff;
+}
+
+
+/* le header */
+
+
+
+header.head{
+    width: 100%;
+    height: 16vh;
+    display: flex;
+}
+header.head div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+header.head div:nth-child(2){
+    justify-content: end;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+
+}
+
+span.logo{
+    font-family: 'Bufally Script', sans-serif;
+    margin-left: 5%;
+    font-size: 3vh;
+    cursor: pointer;
+}
+a.log{
+    color: #000;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    font-size: 2vh;
+    margin-right: 5%;
+    position: relative;
+}
+
+a.log::before{
+    content: "";
+    width: 0;
+    height: 5px;
+    background: #000;
+    bottom: 5px;
+    position: absolute;
+    left: 0;
+    transition: .3s ease-out;
+}
+a.log:hover::before{
+    width: 100%;
+    
+}
+a.reg{
+    color: #fff;
+    text-decoration: none;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width: 20%;
+    border: 3px solid #000;
+    border-radius: 50px;
+    font-size: 2vh;
+    margin-right: 5%;
+    transition: .3s;
+
+}
+a.reg:hover{
+    background: #fff;
+    color: #000;
+}
+
+/* fin du header
+début de la section */
+
+section.slog{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.slogan{
+    width: 75%;
+    height: auto;
+    font-size: 4.5vw;
+    text-align: center;
+    font-family: 'Freestyle Script', sans-serif;
+
+}
