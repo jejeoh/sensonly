@@ -146,6 +146,44 @@ div.photo{
 div.photo img{
     width: 25vw;
 }
+section.press{
+    width: 75%;
+    margin-left: 12.5%;
+    height: 70vh;
+    margin-top: 8vh;
+    display: flex;
+    overflow: hidden;
+}
+div.txt{
+    width: 40vw;
+    height: 100%;
+}
+div.txt div.title{
+    margin-left: 20%;
+    font-family: 'Freestyle Script', sans-serif;
+    font-size: 4.2vw;
+    margin-bottom: 2vh;
+}
+div.txt div.parag{
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    height: auto;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-size: 1.5vw;
+}
+div.photo{
+    width: 30vw;
+    height: 100%;
+    text-align: end;
+}
+section.press div.photo{
+    text-align: left;
+}
+
+div.photo img{
+    width: 25vw;
+}
 
 /* fin section presentation
 debut section rejoindre */
@@ -311,4 +349,248 @@ footer.foot div.allr{
     font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
 }
 
+section.phonelog{
+    display: none;
+}
 
+@media (max-width: 830px){
+
+
+    header.head{
+        height: 10vh;
+    }
+
+    header.head div:nth-child(2){
+        display: none;   
+        width: 0 
+    }
+    header.head div:nth-child(1){
+        width: 100vw;
+        justify-content: center;
+    }
+
+
+
+    section.slog{
+        height: 10vh;
+    }
+    section.slog div.slogan{
+        width: 90%;
+        font-size: 7vw;
+        text-align: center;
+        font-family: 'Freestyle Script', sans-serif;
+    
+    }
+    
+    /*fin section slogan
+    début section presentation */
+    
+    section.pres{
+        width: 95%;
+        margin-left: 2.5%;
+        height: 71vh;
+        margin-top: 2vh;
+        display: block;
+        position: relative;
+    }
+    section.press{
+        width: 95%;
+        margin-left: 2.5%;
+        height: 71vh;
+        margin-top: 2vh;
+        display: block;
+        position: relative;
+    }
+    div.txt{
+        width: 100vw;
+        height: 28vh;
+        position: absolute;
+        margin-top: 43vh;
+    }
+    div.txt div.title{
+        width: 95vw;
+        font-size: 10vw;
+        margin-bottom: 0.5vh;
+        text-align: center;
+        margin-left: 0;
+    }
+    div.txt div.parag{
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 95vw;
+        height: auto;
+        font-size: 4vw;
+
+    }
+    div.photo{
+        width: 95vw;
+        height: 43vh;
+        text-align: center;
+    }
+    section.press div.photo{
+        text-align: center;
+    }
+    div.photo img{
+        width: 80vw;
+    }
+    section.press div.txt{
+        position: relative;
+        margin-top: 0;
+    }
+    /* fin section presentation
+    debut section rejoindre */
+    section.rejoignez{
+        margin-top: 3vh;
+        overflow: hidden;
+    }
+    section.rejoignez img.back{
+        width: auto;
+        height: 35vh;
+        margin-left: -25%;
+    }
+    section.rejoignez a.titre{
+        font-size: 11vw;
+    }
+    section.rejoignez a.titre::before{
+        height: 0.3vh;
+    }
+    /* fin section rejoidre
+    debut section graphique */
+
+
+    section.graph{
+        width: 95%;
+        margin-left: 2.5%;
+    }
+    section.graph h1.title{
+        font-size: 7.5vw;
+    }
+
+
+    /* fin section graph
+    debut section valeur */
+
+    section.val{
+        width: 95%;
+        margin-left: 2.5%;
+        height: auto;
+        margin-top: 3vh;
+    }
+    section.val h1.title{
+        font-size: 7.5vw;
+    }
+    section.val div.autre{
+        width: 100%;
+        height: 60vh;
+        display: block;
+    }
+    div.autre div.txt{
+        margin-left: 0;
+        margin-right: 0;
+        width: 95vw;
+        height: 15vh;
+        font-size: 4vw;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        margin-top: 43vh;
+
+    }
+    div.autre div.txt p{
+        height: auto;
+        width: 100%;
+        text-align: left;
+    }
+    div.autre div.ima{
+        width: 95vw;
+        height: 43vh;
+        justify-content: center;
+        overflow: hidden;
+        margin-top: 2vh;
+    }
+    div.ima img{
+        width: 80vw;
+    }
+
+
+    /* fin setion valeurs
+    debut section fin */
+
+    section.end{
+        height: 20vh;
+    }
+    section.end div.slogan{
+        font-size: 5vw;
+    }
+
+    section.bouton{
+        height: 10vh;
+    }
+    section.bouton a.reg{
+        height: 4vh;
+        font-size: 2vh;
+        width: 40%;
+        border: 2px solid #000;
+    }
+    footer.foot{
+        height: 10vh;
+        margin-top: 4vh;
+    }
+    footer.foot div.politique{
+        height: 4vh;
+        font-size: 2vw;
+    }
+    footer.foot div.allr{
+        height: 5vh;
+        font-size: 2.5vw;
+    }
+    
+    section.phonelog{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        bottom: -25px;
+        width: 100%;
+        height: 15vh;
+        background-color: #777777;
+        z-index: 2;
+        border-radius: 25px;
+        font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+        transform: translateY(15vh);
+        transition: transform .5s;
+    }
+    section.phonelog.acti{
+        transform: translateY(0);
+    }
+    section.phonelog a.log{
+        color: #fff;
+        height: 5vh;
+        font-size:5vw;
+        margin-right: 5%;
+        margin-top: -12.5px;
+    }
+    
+    section.phonelog a.log::before{
+        height: 0.25vh;
+        background: #fff;
+    }
+    section.phonelog a.log:hover::before{
+        width: 100%;
+    }
+    section.phonelog a.reg{
+        color: #777777;
+        margin-top: -12.5px;
+        background: #fff;
+        height: 5vh;
+        width: 30%;
+        border: 2px solid #fff;
+        font-size: 5vw;    
+    }
+    section.phonelog a.reg:hover{
+        background: #777777;
+        color: #fff;
+    }
+    
+
+}
