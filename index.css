@@ -93,7 +93,7 @@ section.slog{
     justify-content: center;
     align-items: center;
 }
-div.slogan{
+section.slog div.slogan{
     width: 75%;
     height: auto;
     font-size: 4.5vw;
@@ -172,4 +172,136 @@ section.rejoignez a.titre::before{
 section.rejoignez a.titre:hover::before{
     width: 100%   
 }
+
+/* fin section rejoidre
+debut section graphique */
+
+
+section.graph{
+    width: 75%;
+    margin-left: 12.5%;
+    height: auto;
+    margin-top: 8vh;
+    overflow: hidden;
+    text-align: center;
+}
+section.graph h1.title{
+    font-family: 'Freestyle Script', sans-serif;
+    font-size: 5.2vw;
+}
+section.graph img.graphi{
+    width: 100%;
+    margin-top: 3vh;
+}
+
+/* fin section graph
+debut section valeur */
+
+section.val{
+    width: 75%;
+    margin-left: 12.5%;
+    height: auto;
+    margin-top: 8vh;
+    overflow: hidden;
+    text-align: center;
+}
+section.val h1.title{
+    font-family: 'Freestyle Script', sans-serif;
+    font-size: 5.2vw;
+}
+section.val div.autre{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+}
+div.autre div.txt{
+    margin-left: 6vw;
+    margin-right: 6vw;
+    width: 28vw;
+    height: 100%;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-size: 1.5vw;
+    display: flex;
+    align-items: center;
+}
+div.autre div.txt p{
+    height: auto;
+    width: 100%;
+    text-align: left;
+}
+div.autre div.ima{
+    width: 30vw;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+div.ima img{
+    width: 25vw;
+}
+
+/* fin setion valeurs
+debut section fin */
+
+section.end{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.end div.slogan{
+    width: 75%;
+    height: auto;
+    font-size: 2.6vw;
+    text-align: center;
+    font-family: 'Freestyle Script', sans-serif;
+
+}
+
+
+section.bouton{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.bouton a.reg{
+    text-decoration: none;
+    height: 6vh;
+    font-size: 3vh;
+    width: 15%;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+}
+footer.foot{
+    height: 18vh;
+    width: 100%;
+    background-color: #979797;
+    margin-top: 10vh;
+}
+footer.foot div.politique{
+    height: 8vh;
+    width: 100%;
+    color: #fff;
+    font-size: 1.3vw;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+}
+div.politique a{
+    color: #fff;
+}
+footer.foot div.allr{
+    height: 10vh;
+    width: 100%;
+    color: #fff;
+    font-size: 1.3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+}
+
 
