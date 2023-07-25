@@ -8,6 +8,13 @@ body{
     background: #fff;
 }
 
+section{
+    opacity: 0;
+    transition: opacity .5s;
+}
+section.act{
+    opacity: 1;
+}
 
 /* le header */
 
