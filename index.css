@@ -115,7 +115,7 @@ début section presentation */
 section.pres{
     width: 75%;
     margin-left: 12.5%;
-    height: 70vh;
+    min-height: 70vh;
     margin-top: 8vh;
     display: flex;
     overflow: hidden;
@@ -149,10 +149,11 @@ div.photo img{
 section.press{
     width: 75%;
     margin-left: 12.5%;
-    height: 70vh;
+    min-height: 70vh;
     margin-top: 8vh;
     display: flex;
     overflow: hidden;
+    margin-bottom: 2vh;
 }
 div.txt{
     width: 40vw;
@@ -317,6 +318,7 @@ section.bouton a.reg{
     height: 6vh;
     font-size: 3vh;
     width: 15%;
+    margin: 0;
     font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
 }
 footer.foot{
@@ -388,7 +390,7 @@ section.phonelog{
     section.pres{
         width: 95%;
         margin-left: 2.5%;
-        height: 71vh;
+        height: 80vh;
         margin-top: 2vh;
         display: block;
         position: relative;
@@ -396,14 +398,14 @@ section.phonelog{
     section.press{
         width: 95%;
         margin-left: 2.5%;
-        height: 71vh;
+        height: 80vh;
         margin-top: 2vh;
         display: block;
         position: relative;
     }
     div.txt{
         width: 100vw;
-        height: 28vh;
+        height: 37vh;
         position: absolute;
         margin-top: 43vh;
     }
@@ -426,12 +428,15 @@ section.phonelog{
         width: 95vw;
         height: 43vh;
         text-align: center;
+        overflow: hidden;
     }
     section.press div.photo{
         text-align: center;
     }
     div.photo img{
-        width: 80vw;
+        max-height: 43vh;
+        max-width: 95vw;
+        width: max-content;
     }
     section.press div.txt{
         position: relative;
