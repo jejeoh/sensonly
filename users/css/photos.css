@@ -1,0 +1,267 @@
+@import url('https://fonts.cdnfonts.com/css/bufally-script');
+@import url('https://fonts.cdnfonts.com/css/freestyle-script');
+
+*{
+    margin: 0;
+}
+body{
+    background: #fff;
+    display: flex;
+}
+section.menu{
+    width: calc( 14vw - 3px );
+    height: 100vh;
+    border-right: 3px solid #CCCCCC;
+}
+section.content{
+    width: 59vw;
+    height: 100vh;
+}
+section.personne{
+    width: calc( 27vw - 3px );
+    border-left: 3px solid #CCCCCC;
+}
+
+
+div.logo{
+    width: 100%;
+    height: 5vh;
+    text-align: center;
+    margin-top: 2vh;
+}
+span.logo{
+    font-family: 'Bufally Script', sans-serif;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+div.select{
+    width: 100%;
+    height: 25vh;
+    margin-top: 25vh;
+}
+div.select div.btn{
+    width: auto;
+    height: 6vh;
+    margin-left: 1vw;
+}
+div.btn a.choix{
+    text-decoration: none;
+    color: #CCCCCC;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-size: 1.3vw;
+    transition: .4s;
+}
+a.choix i{
+    margin-right: .5vw;
+}
+div.btn a.choix:hover{
+    color: #707070;
+}
+div.leave{
+    height: 6vh;
+    margin-left: 1vw;
+    color: #CCCCCC;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-size: 1.3vw;
+    transition: .4s;
+    cursor: pointer;
+    margin-top: 35vh;
+}
+div.leave:hover{
+    color: #707070;
+}
+
+
+
+
+div.profil{
+    width: 24vw;
+    height: 40vh;
+    background: #ccc;
+    border-radius: 35px;
+    margin-left: 1.5vw;
+    margin-top: 3vh;
+}
+div.photo{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 30vh;
+}
+div.photo div.img{
+    max-width: 12vw;
+    max-height: 20vh;
+    width: auto;
+    height: 20vh;
+    aspect-ratio: 1/1;
+    border: 2px solid #707070;
+    overflow: hidden;
+    border-radius: 50%;
+}
+div.nom{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+div.nom h3.prenom{
+    font-size: 1vw;
+    color: #000;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+}
+div.chat{
+    width: 24vw;
+    height: 51vh;
+    background: #ccc;
+    border-radius: 35px;
+    margin-left: 1.5vw;
+    margin-top: 3vh;
+
+}
+div.nom-section{
+    width: 100%;
+    height: 5vh;
+    top: 1vh;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+div.nom-section h2.sect{
+    font-size: 1.3vw;
+    color: #000;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+
+}
+div.affiche{
+    width: 100%;
+    height: 35vh;
+    overflow: auto;
+    position: relative;
+}
+div.input{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.input input:nth-child(1){
+    width: calc(90% - 2.5vh);
+    height: 5vh;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    background: #fff;
+    font-size: 1vw;
+    color: #ccc;
+
+}
+div.input input:nth-child(3){
+    width: 5vh;
+    height: 5vh;
+    margin-left: -5vh;
+    opacity: 0;
+    cursor: pointer;
+}
+div.input span{
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #CCCCCC;
+    margin-left: -5vh;
+    font-size: 2.5vh;
+}
+
+
+div.allphotos{
+    width: 100%;
+    height: 38vh;
+}
+div.allphotos div.titre{
+    width: 100%;
+    height: 8vh;
+    display: flex ;
+    align-items: center;
+}
+div.allphotos div.titre h3{
+    margin-left: 5%;
+    font-size: 3vh;
+    color: #ccc;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+}
+div.photos{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+}
+div.photos div.advence{
+    width: 5%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.photos div.containers{
+    width: 90%;
+    height: 30vh;
+    overflow: hidden;
+}
+div.photos div.containers div.movment{
+    display: flex;
+    width: fit-content;
+    height: 30vh;
+    align-items: center;
+    justify-content: center;
+}
+div.photos div.containers div.movment div.cards{
+    width: 12vw;
+    height: 25vh;
+    background: #ccc;
+    margin-left: 0.75vw;
+    margin-right: 0.75vw;
+    border-radius: 25px;
+}
+form.image{
+    width: 100%;
+    height: 62vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form.image input{
+    position: absolute;
+    z-index: 1;
+    width: 47vw;
+    height: 50vh;
+    opacity: 0;
+}
+form.image div.deco{
+    width: 47vw;
+    height: 50vh;
+    background: #ccc;
+    border-radius: 50px;
+}
+form.image div.deco div.ico{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 25vh;
+}
+form.image div.deco div.texte{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 3vh;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+
+}
