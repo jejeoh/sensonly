@@ -1,0 +1,191 @@
+@import url('https://fonts.cdnfonts.com/css/bufally-script');
+@import url('https://fonts.cdnfonts.com/css/freestyle-script');
+
+*{
+    margin: 0;
+}
+body{
+    background: #fff;
+    display: flex;
+}
+
+div.bouton{
+    position: absolute;
+    width: 13vw;
+    height: 5vh;
+    background: #fff;
+    top: 2vh;
+    left: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    border-radius: 50px;
+    font-size: 0.9vw;
+    cursor: pointer;
+    z-index: 3;
+}
+
+section.image{
+    width: 55%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+section.image img{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+section.image h1{
+    font-size: 4vw;
+    color: #fff;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+
+}
+section.form{
+    width: 45%;
+    height: 100vh;
+}
+section.form div.logo{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+span.logo{
+    font-family: 'Bufally Script', sans-serif;
+    font-size: 4vh;
+    cursor: pointer;
+}
+
+section.form form{
+    width: 100%;
+    margin-top: 15vh;
+    height: 60vh;
+}
+input.grey{
+    outline: none;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    color: #ccc;
+    transition: .3s;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+
+}
+input.grey:focus{
+    border-bottom: 2px solid #707070;
+    color: #707070;
+}
+input.grey::placeholder{
+    color: #ccc;
+}
+input.grey:focus::placeholder{
+    color: #707070;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+}
+div.text{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.text input{
+    width: 60%;
+    height: 7vh;
+    font-size: 5vh;
+}
+div.sub{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.sub input{
+    width: 40%;
+    height: 7vh;
+    background: #ccc;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 3.5vh;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    color: #fff;
+    transition: background .4s;
+}
+div.sub input:hover{
+    background: #707070;
+}
+div.oublie{
+    width: 100%;
+    text-align: center;
+    color: #ccc;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-size: 2vh;
+}
+div.oublie a{
+    color: #ccc;
+}
+div.etage{
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.done input{
+    width: 40%;
+    height: 7vh;
+    background: #ccc;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 3.5vh;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    color: #fff;
+    transition: background .4s;
+}
+div.done input:hover{
+    background: #707070;
+}
+div.etage input{
+    width: 60%;
+    height: 6vh;
+    font-size: 4.5vh;
+
+}
+div.civil input{
+    width: 30%;
+    height: 6vh;
+    font-size: 4.5vh;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+div.done{
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.civil{
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
